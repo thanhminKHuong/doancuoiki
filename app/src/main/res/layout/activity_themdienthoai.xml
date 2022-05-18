@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        tools:context=".Activity.ThemSP"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:textAlignment="center"
+                android:id="@+id/txt_tensp_themdt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Thêm điện thoại"
+                android:textColor="#756C6C"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ScrollView
+            android:id="@+id/thuoc_tinh_them"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/txtTenDT"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="32dp"
+                    android:background="@drawable/custom_edittext_background"
+                    android:drawableStart="@drawable/ic_name_device"
+                    android:drawablePadding="16dp"
+                    android:ems="10"
+                    android:hint="Tên ĐT"
+                    android:inputType="textPersonName"
+                    android:textColorHint="#756C6C"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/txt_Giasp_themdt"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="32dp"
+                    android:background="@drawable/custom_edittext_background"
+                    android:drawableStart="@drawable/ic_money"
+                    android:drawablePadding="16dp"
+                    android:ems="10"
+                    android:hint="Gia"
+                    android:inputType="number"
+                    android:textColorHint="#756C6C"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/txt_SoLuongsp_themdt"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="32dp"
+                    android:background="@drawable/custom_edittext_background"
+                    android:drawableStart="@drawable/ic_number"
+                    android:drawablePadding="16dp"
+                    android:ems="10"
+                    android:hint="Số lượng"
+                    android:inputType="number"
+                    android:textColorHint="#756C6C"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/txt_Chipsp_themdt"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="32dp"
+                    android:background="@drawable/custom_edittext_background"
+                    android:drawableStart="@drawable/ic_chip"
+                    android:drawablePadding="16dp"
+                    android:ems="10"
+                    android:hint="Chip"
+
+                    android:textColorHint="#756C6C"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/txt_MaLoai_themdt"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="32dp"
+                    android:background="@drawable/custom_edittext_background"
+                    android:drawableStart="@drawable/ic_type_product"
+                    android:drawablePadding="16dp"
+                    android:ems="10"
+                    android:hint="Mã Loại"
+                    android:inputType="number"
+                    android:textColorHint="#756C6C"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/txt_ManHinh_themdt"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="32dp"
+                    android:background="@drawable/custom_edittext_background"
+                    android:drawableStart="@drawable/ic_ws"
+                    android:drawablePadding="16dp"
+                    android:hint="man hinh"
+                    android:inputType="textPersonName"
+                    android:textColorHint="#756C6C"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/txt_hdh_themdt"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="32dp"
+                    android:background="@drawable/custom_edittext_background"
+                    android:drawableStart="@drawable/icon_email"
+                    android:drawablePadding="16dp"
+                    android:ems="10"
+                    android:hint="He dieu hanh"
+
+                    android:textColorHint="#756C6C"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/txt_CMRSau_themdt"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="32dp"
+                    android:background="@drawable/custom_edittext_background"
+                    android:drawableStart="@drawable/ic_camera"
+                    android:drawablePadding="16dp"
+                    android:ems="10"
+                    android:hint="Camera sau"
+                    android:inputType="text"
+                    android:textColorHint="#756C6C"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/txt_CMRTruoc_themdt"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="32dp"
+                    android:background="@drawable/custom_edittext_background"
+                    android:drawableStart="@drawable/ic_camera"
+                    android:drawablePadding="16dp"
+                    android:ems="10"
+                    android:hint="camera truoc"
+
+                    android:textColorHint="#756C6C"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/txt_Ramsp_themdt"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="32dp"
+                    android:background="@drawable/custom_edittext_background"
+                    android:drawableStart="@drawable/ic_ram"
+                    android:drawablePadding="16dp"
+                    android:ems="10"
+                    android:hint="Ram"
+
+                    android:textColorHint="#756C6C"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/txt_Bntsp_themdt"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="32dp"
+                    android:background="@drawable/custom_edittext_background"
+                    android:drawableStart="@drawable/ic_rom"
+                    android:drawablePadding="16dp"
+                    android:ems="10"
+                    android:hint="bnt"
+
+                    android:textColorHint="#756C6C"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/txt_Simsp_themdt"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="32dp"
+                    android:background="@drawable/custom_edittext_background"
+                    android:drawableStart="@drawable/ic_sim_card"
+                    android:drawablePadding="16dp"
+                    android:ems="10"
+                    android:hint="Sim"
+
+                    android:textColorHint="#756C6C"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/txt_PinSacsp_themdt"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="32dp"
+                    android:background="@drawable/custom_edittext_background"
+                    android:drawableStart="@drawable/ic_pin"
+                    android:drawablePadding="16dp"
+                    android:ems="10"
+                    android:hint="Pin Sac"
+
+                    android:textColorHint="#756C6C"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/txt_hinhanhsanphamne"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="32dp"
+                    android:background="@drawable/custom_edittext_background"
+                    android:drawableStart="@drawable/ic_pin"
+                    android:drawablePadding="16dp"
+                    android:ems="10"
+                    android:hint="Hình ảnh sản phẩm"
+                    android:textColorHint="#756C6C"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_margin="50dp"
+            android:id="@+id/cover_button_them"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/btnThemDT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_background_red"
+                android:text="Thêm mới"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+
+
+<!--lam di-->
